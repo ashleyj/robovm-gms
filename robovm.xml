@@ -1,0 +1,47 @@
+<config>
+    <executableName>${app.executable}</executableName>
+    <mainClass>${app.mainclass}</mainClass>
+    <os>ios</os>
+    <arch>x86</arch>
+    <target>ios</target>
+    <iosInfoPList>Info.plist.xml</iosInfoPList>
+    <frameworkPaths>
+        <path>libs</path>
+    </frameworkPaths>
+
+    <resources>
+        <resource>
+            <directory>/Users/ash/IdeaProjects/GoogleMapsIOS/libs/GoogleMaps.framework/Resources</directory>
+            <includes>
+                <include>**</include>
+            </includes>
+        </resource>
+
+    </resources>
+
+    <libs>
+        <lib>c++</lib>
+    </libs>
+    <frameworks>
+        <framework>AVFoundation</framework>
+        <framework>CoreData</framework>
+        <framework>CoreLocation</framework>
+        <framework>CoreTelephony</framework>
+        <framework>MessageUI</framework>
+        <framework>GLKit</framework>
+        <framework>ImageIO</framework>
+        <framework>OpenGLES</framework>
+        <framework>OpenAL</framework>
+        <framework>QuartzCore</framework>
+        <framework>SystemConfiguration</framework>
+        <framework>GoogleMaps</framework>
+        <framework>CoreGraphics</framework>
+        <framework>UIKit</framework>
+        <framework>CoreText</framework>
+    </frameworks>
+
+    <weakFrameworks>
+        <framework>StoreKit</framework>
+    </weakFrameworks>
+
+</config>
