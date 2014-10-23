@@ -12,4 +12,4 @@ Usage of this SDK is subject to the Google Maps/Google Earth APIs Terms of
 Service: https://developers.google.com/maps/terms
 
 *(The Google Maps SDK is owned by Google. The bindings in this repository are merely to make
-them available using Java with RoboVM)*
+it available using Java with RoboVM)*
